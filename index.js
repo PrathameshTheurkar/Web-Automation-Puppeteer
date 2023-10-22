@@ -42,7 +42,7 @@ async function func(){
   await page.waitForSelector('.model-slug.clearfix.pull-left.pjB')
   await page.click('.model-slug.clearfix.pull-left.pjB')
 
-  const linkId = 'model-slug.clearfix.pull-left.pjB'; // Replace with the actual id
+  const linkId = 'model-slug.clearfix.pull-left.pjB';
   const linkSelector = `a.${linkId}`;
   const linkHandle = await page.$(linkSelector);
 
